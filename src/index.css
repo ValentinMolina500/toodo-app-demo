@@ -12,10 +12,15 @@ hmtl, body {
   box-sizing: border-box;
 }
 
-body, #root {
+body {
   height: 100vh;
+}
 
+#root {
   margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  position: fixed;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
