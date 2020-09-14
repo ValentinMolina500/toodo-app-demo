@@ -6,7 +6,7 @@ function App() {
   const [showModal, setShowModal] = useState(false);
   const [todos, setTodos] = useState([]);
   const [todoTitle, setTodoTitle] = useState("");
-
+  
   const renderTodos = () => {
     return todos.map((todo, i) => {
       return (
