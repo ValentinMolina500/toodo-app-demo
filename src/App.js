@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import "./App.css";
 import noTodosImage from "./images/relax-1.svg"
 import closeIcon from './images/close.svg';
+
 function App() {
   const [showModal, setShowModal] = useState(false);
   const [todos, setTodos] = useState([]);
   const [todoTitle, setTodoTitle] = useState("");
-  
+
   const renderTodos = () => {
     return todos.map((todo, i) => {
       return (
